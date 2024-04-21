@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C0C0C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* CSS FOR FLEX BOX */
+.headingText {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    border: 2px solid #F2613F;
+}
+
+.block {
+    display: flex;
+    margin: 10px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #F2613F;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    border: 4px solid #F2613F;
+    margin: 20px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+/* CSS FOR GRID */
+.mainContainer {
+    display: grid;
+    grid-gap: 10px;
+    border: 2px solid #F2613F;
+}
+
+.blockContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid #F2613F;
+    margin: 10px;
+    height: 100px;
+}
+
+.boxContainer {
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    border: 4px solid #F2613F;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    color: white;
+}
+
+/*IN CASE OF FLEX BOX SPACE AROUND WORK EXACTLY LIKE MARGIN AUTO IN CASE OF GRID*/
